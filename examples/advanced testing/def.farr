@@ -1,0 +1,19 @@
+val abc := "abc";
+val def := "abc";
+
+try = {
+
+case (abc == def) = {
+    println("same type and value");
+    }
+default = {
+    println("not same type and value");
+    }
+
+}
+
+for let a in [1..5] = {
+
+println("${a} hello");
+
+}

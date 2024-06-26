@@ -1,0 +1,25 @@
+Raise.success("### INIT ###");
+
+//Console.writeline(Keys.esymbols());
+
+//val keys := {5,7,8};
+
+//println(keys);
+
+//Keys.esymbols();
+
+//val aa := Math.random({543,54,53,453,45,435,345,34,534,534,54,534,44},3);
+
+//val aa := Math.sin(445);
+
+//println(aa);
+
+
+//println(Math.sin(475658));
+//println(Math.cos(475658));
+println(Math.tan(475658));
+println(Math.expm1(48656354));
+println(Math.sqrt(475658));
+
+
+

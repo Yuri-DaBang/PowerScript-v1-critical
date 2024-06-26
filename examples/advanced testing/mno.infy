@@ -1,0 +1,7 @@
+// HELLO WORLDS //
+
+println(_bp.velocity(445,7));
+println(BasicPhysics.velocity(445,7));
+println(_bp.focal_length(45.55,7.32));
+println(BasicPhysics.velocity(445,7));
+println(_bp.angular_velocity(445,7));

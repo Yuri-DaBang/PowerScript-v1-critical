@@ -1,0 +1,23 @@
+case 1 == 1 = {println("hello");}
+
+
+case 2 == 3 = {println("2 == 3");}
+default = {println("2 != 3");}
+
+if "hamza" == "hamza" = {
+
+println("hamza == hamza");
+
+}
+
+fn takeinput() = {
+
+let x = readln!("what is your name??? ");
+
+return! x;
+
+}
+
+print(takeinput());
+
+fn hallo() {println("hello worlds");}

@@ -1,0 +1,25 @@
+//val type := math;
+
+//println(type);
+
+//println(type(type));
+
+//println(type.sin(44));
+//println(type(type));
+
+let abc := "
+name:hamza;
+age:16;
+#fgsgdjafdsj;
+hamza:hamzahamzahamza;
+people:[#.#:hamza,#.#:mark,#.#:jarvis];
+";
+
+//println(abc);
+
+let res := fson.loads(abc);
+
+println(res);
+
+println(fson.dumps(res))
+

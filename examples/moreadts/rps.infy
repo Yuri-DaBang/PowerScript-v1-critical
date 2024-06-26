@@ -1,0 +1,41 @@
+println("Hello worlds!");
+
+let fizzbuzz := {};
+let fizz := {};
+let buzz := {};
+let tuzz := {};
+let guzz := {};
+
+function FizzBuzz() {
+    let times := (readln!("Enter the number of numbers: ").toint());
+
+    println("Starting in 2seconds");
+    SysTime.sleep(2);
+
+    for (let i) in [1..times] {
+
+        if ((% i 15) == 0) {
+            println("...Fizzbuzz");
+            fizzbuzz.append!(i);
+        } else if ((% i 3) == 0) {
+            println("...Fizz");
+            fizz.append!(i);
+        } else if ((% i 5) == 0) {
+            println("...Buzz");
+            buzz.append!(i);
+        } else if ((% i 19) == 0) {
+            println("...Tuzz");
+            tuzz.append!(i);
+        } else if ((% i 69) == 0) {
+            println("...Guzz");
+            guzz.append!(i);
+        } else {
+            println(i); // Or just pass `i` as an argument!
+        }
+
+    } 
+}
+
+FizzBuzz();
+
+println("FizzBuzz: ",fizzbuzz,"\nFizz: ",fizz,"\nBuzz: ",buzz,"\nTuzz: ",tuzz,"\nGuzz: ",guzz)

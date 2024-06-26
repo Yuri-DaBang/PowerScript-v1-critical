@@ -1,0 +1,25 @@
+//_cfernet();
+//val seckey := _cfernet.get_key();
+
+//println(_cfernet.encrypt("Hello my name is hamza"));
+//println(_chash.sha256("fasdhgfsdgfhdgshfdsh gfhsdgk addgfhgj afhdgkjf  "));
+
+val abc := {"a","b","c","d","e"};
+
+
+
+val a := "gfdgfgsgfdg";
+val b := 59347564;
+//time.sleep(2);
+val c := 7653249.527345734;
+
+//println(len(a));
+//println(len(b));
+//println(len(c));
+
+println(len(abc));
+println(type(abc));
+
+//time.sleep(3);
+
+println(type.to_int("453623454387"));

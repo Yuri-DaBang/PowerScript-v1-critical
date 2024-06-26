@@ -1,0 +1,30 @@
+// Example usage of MatplotlibLIB
+//let graphia := MatplotlibLIB();
+
+// Plotting a line chart
+//let x_values := {1, 2, 3, 4, 5};
+//let y_values := {2, 4, 6, 8, 10};
+//let plot_data := graphia.plot(x_values, y_values);
+
+// Plotting a scatter plot
+//let scatter_data := graphia.scatter(x_values, y_values);
+
+// Plotting a histogram
+//let data := {1, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 5};
+//let hist_data := graphia.hist(data);
+
+// Plotting a bar chart
+//let categories := {'A', 'B', 'C', 'D'};
+//let values := {10, 20, 15, 25};
+//graphia.bar(categories, values);
+
+// Plotting a pie chart
+//let data := {'A': 10, 'B': 20, 'C': 15, 'D': 25};
+//let pie_data := graphia.pie(data);
+
+// Plotting a box plot
+//let data := {{1, 2, 3, 4, 5}, {5, 4, 3, 2, 1}};
+//let boxplot_data := graphia.boxplot(data);
+
+// Plotting a violin plot
+// violinplot_data := graphia.violinplot(data);

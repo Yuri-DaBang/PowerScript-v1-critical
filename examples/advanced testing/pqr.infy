@@ -1,0 +1,61 @@
+//println(Math.sin(57634287956458763948756287568735869734));
+
+//_time.sleep(0.002);
+//println(_time.local_time());
+
+//println(Time.perf_counter());
+//println(Time.perf_counter_ns());
+
+
+//println(Time.monotonic());
+//println(Time.monotonic_ns());
+
+//println(_time.process_time());
+//println(_time.process_time_ns());
+
+//println(_time.strf("%Y"));
+//println(_time.strp("%H:%M:%S"));
+
+//println(Time.thread_time());
+//println(Time.thread_time_ns());
+
+//println(_time.time());
+//println(_time.time_ns());
+
+for (let a) in [1..2] {
+
+println(_time.time());
+_time.sleep(0.5);
+
+}
+
+if (123 == 14233)
+{
+	println("hello success!");
+}
+else
+{
+	println("hello again!!!!");
+}
+
+case (222>=444) then 
+{
+println("222>=444");
+}
+default {
+println("222 !>= 444");
+}
+
+fn abc()
+{
+println("hello");
+
+}
+abc();
+
+try 
+{
+
+println(afdf);
+
+}

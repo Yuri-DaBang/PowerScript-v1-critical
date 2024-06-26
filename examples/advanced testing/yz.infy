@@ -1,0 +1,21 @@
+
+let a := 9;
+
+for let i in [1..99999]
+{
+
+val sh := chash.sha256(i);
+println(sh);
+
+if (sh == chash.sha256(a))
+{
+
+println("success");
+println("PASSWORD: ",type.to_string(i));
+exit!();
+
+}
+
+time.sleep(0.000001);
+
+}
